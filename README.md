@@ -49,3 +49,5 @@ python /stitchingmedvits/main.py \
 This implementation is built upon [MedViT](https://github.com/Omid-Nejati/MedViT) and [Stitchable Neural Networks](https://github.com/ziplab/SN-Net/). We thank the authors for their released code.
 
 
+# License
+This repository is released under the Apache 2.0 license as found in the [LICENSE](/LICENSE) file.
