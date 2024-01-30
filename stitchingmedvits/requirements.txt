@@ -1,5 +1,4 @@
-torch>=1.7
-torchvision
-pyyaml
-huggingface_hub
-medmnist
+torch==2.1.0
+torchvision==0.16.0
+pyyaml==6.0.1
+huggingface_hub==0.20.3
