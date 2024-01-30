@@ -1,4 +1,4 @@
-timm
-einops
-tensorboardX
-focal_loss_torch
+timm==0.9.12
+einops==0.7.0
+tensorboardX==2.6.2.2
+focal_loss_torch==0.1.2
