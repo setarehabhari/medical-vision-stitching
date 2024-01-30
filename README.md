@@ -4,12 +4,12 @@ By [MohammadMahdi Azizi](https://github.com/mhmdmhdiazizi), [Setareh Abhari](htt
 
 # Stitched MedViT
 
-In this research we were able to demonstrate that for a dataset of Optical Coherence Tomography images, even on a different datasets, utilizing stichable neural network as an architecture search method for efﬁcient neural networks based on pre-trained medical vision transformers, in a few epochs of training can result in an accurate model in classifying images from our original dataset.
+In this research, we were able to demonstrate that for a dataset of Optical Coherence Tomography images, even on different datasets, utilizing a stitchable neural network as an architecture search method for efﬁcient neural networks based on pre-trained medical vision transformers, in a few epochs of training can result in an accurate model in classifying images from our original dataset.
 
 
 
 # Pre-Training
-This folder consists of the MedVit project which was forked from github. In The given files we have altered the Model to take our dataset as an input and train the MedVit model on them and then return the pretrained model checkpoint as result. The file can be executed using the following command:
+This folder consists of the MedVit project which was forked from github. In The given files we have altered the Model to take our dataset as an input, train the MedVit model on them, and then return the pre-trained model checkpoint as a result. The file can be executed using the following command:
 
 ```
 python /pre-training/main.py \
@@ -26,7 +26,7 @@ python /pre-training/main.py \
 ```
 
 # Stitching MedViTs
-This fodler consist of the code for the stitchable MedViT model. We have used the codes for Stitchable Neural Network from github and altered it to use MedViT as it's anchors and to run on our fiven dataset. To run the altered Model you can Use the following command:
+This folder consists of the code for the stitchable MedViT model. We have used the codes for Stitchable Neural Network from Git Hub and altered it to use MedViT as its anchors and to run on our given dataset. To run the altered Model you can Use the following command:
 
 ```
 python /stitchingmedvits/main.py \
@@ -39,8 +39,7 @@ python /stitchingmedvits/main.py \
 --image_column file-name --class_name_column class-id \
 --nb_classes 3 --distillation-type  none \
 --teacher-path PATH_TO_THEtEACHER_MODEL \
---teacher-model MedViT_micro \
---mixup 0 --cutmix 0
+--teacher-model MedViT_micro 
 ```
 
 
