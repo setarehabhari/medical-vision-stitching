@@ -1,6 +1,9 @@
-This is the official PyTorch implementation of Stitchable Neural Networks.
+# This is the official PyTorch implementation of **Stitched vision transformer for age-related macular degeneration detection using retinal optical coherence tomography images** [[Paper](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0304943&type=printable)] [[Cite](#citation)]
 
 By [MohammadMahdi Azizi](https://github.com/mhmdmhdiazizi), [Setareh Abhari](https://github.com/setarehabhari), Dr. Hedieh Sajedi.
+
+![preview](https://github.com/setarehabhari/medical-vision-stitching/assets/61220887/49ed1a90-feee-4c40-bbfd-963c4fd34e5b)
+
 
 # Stitched MedViT
 
@@ -42,6 +45,19 @@ python /stitchingmedvits/main.py \
 --teacher-model MedViT_micro 
 ```
 
+# Citation
+```
+@article{azizi2024stitched,
+  title={Stitched vision transformer for age-related macular degeneration detection using retinal optical coherence tomography images},
+  author={Azizi, Mohammad Mahdi and Abhari, Setareh and Sajedi, Hedieh},
+  journal={PloS one},
+  volume={19},
+  number={6},
+  pages={e0304943},
+  year={2024},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+```
 
 # Acknowledgement
 
